@@ -3,7 +3,7 @@ title: "Koltin in Action 스터디 - 코틀린 맛보기와 코틀린의 주요 
 toc: true
 toc_sticky: true
 categories:
-  - 📘Book(개발%20도서)
+  - 📘Book(%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EC%84%9C)
 tags:
   - 안드로이드
   - 코틀린 인 액션
