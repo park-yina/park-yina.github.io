@@ -2,6 +2,8 @@
 main:
   - title: "📝Kotin"
     url: https://park-yina.github.io/categories/#%EC%BD%94%ED%8B%80%EB%A6%B0
+  - title: "📗개발도서"
+  
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
