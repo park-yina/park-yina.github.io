@@ -196,7 +196,7 @@ incremental: false
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: true
+  auto_ids: false
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
@@ -252,16 +252,17 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
 
 
 # HTML Compression
@@ -275,7 +276,7 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  - scope:
+  - scope: 
       path: ""
       type: posts
     values:
@@ -286,5 +287,3 @@ defaults:
       related: true
       show_date: true
       date_format: "%Y-%m-%d"
-      sidebar:                  # 추가한 부분
-        nav: "sidebar-category" # 추가한 부분

@@ -1,13 +1,8 @@
 # main links
-docs:
-  - title: Coding
-    children:
-    - title: 코틀린
-    url: /categories/kotlin
-  - title: 📚Book
-    children:
-    - title: 개발도서
-    url: /categories/develop_book
+main:
+- title: "💻Coding"
+  url: /categories/kotlin/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

@@ -1,7 +1,5 @@
 ---
-title: "kotlin"
+title: "Kotlin"
 layout: archive
-permalink: /kotlin
+permalink: /categories/kotlin/
 ---
-{% assign posts = site.categories.kotlin %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

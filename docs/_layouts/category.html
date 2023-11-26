@@ -1,10 +1,12 @@
 ---
 layout: archive
+title: "Posts in the category {{ page.category | capitalize }}"
+permalink: /categories/{{ page.category | slugify }}/
 ---
 
 {{ content }}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
+  {% include posts-category.html taxonomy=page.category type=entries_layout %}
 </div>
