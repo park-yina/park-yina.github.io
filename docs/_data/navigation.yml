@@ -2,6 +2,8 @@
 main:
 - title: "💻Coding"
   url: /categories/kotlin/
+- title: "📚Book"
+  url: /categories/book/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

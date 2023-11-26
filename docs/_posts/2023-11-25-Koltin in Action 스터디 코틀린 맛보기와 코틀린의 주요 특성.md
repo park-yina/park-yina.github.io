@@ -3,10 +3,11 @@ title: "Koltin in Action 스터디 - 코틀린 맛보기와 코틀린의 주요 
 toc: true
 toc_sticky: true
 categories:
-  - 개발도서 뿌시기
+  - 📗개발도서 뿌시기
 tags:
   - 안드로이드
   - 코틀린 인 액션
+permalink: /categories/book/
 ---
 # 코틀린은 도대체 무엇일까
 자바 코드와의 상호운용성이 중시된다.<br>
