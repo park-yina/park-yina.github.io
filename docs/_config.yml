@@ -286,4 +286,5 @@ defaults:
       related: true
       show_date: true
       date_format: "%Y-%m-%d"
-
+      sidebar:                  # 추가한 부분
+        nav: "sidebar-category" # 추가한 부분
