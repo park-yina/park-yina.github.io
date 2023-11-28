@@ -19,5 +19,4 @@ permalink: /categories/book/develop
 ⚫타입추론이 잘 되어있어서 타입을 명시하지 않아도 된다<br>
 ⚫NullPointerException의 방지가 잘 되어있다<br>
 ⚫기존에 자바를 활용하면서 동시에 코틀린 도입 역시 가능하다<br>
-### data class
-코틀린 인 액션의 36P에 예시 코드가 나와있다.
+### 36P예시에 따른 
