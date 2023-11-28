@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: defult
 title: Kotlin Posts
 permalink: /categories/kotlin
 taxonomy: kotlin
@@ -13,9 +13,8 @@ taxonomy: kotlin
     color: #5627a8;  // 하이퍼링크 색상 변경
   }
 </style>
-<h1>Kotlin</h1>
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories['=kotlin'] %}
+  {% for post in site.categories['kotlin'] %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
