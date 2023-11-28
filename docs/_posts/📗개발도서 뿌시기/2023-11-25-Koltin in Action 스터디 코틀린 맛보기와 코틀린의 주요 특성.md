@@ -1,5 +1,5 @@
 ---
-title: "Koltin in Action 스터디 - 코틀린 맛보기와 코틀린의 주요 특성"
+title: "Kotlin in Action 스터디 - 코틀린 맛보기와 코틀린의 주요 특성"
 toc: true
 toc_sticky: true
 categories:
@@ -9,6 +9,7 @@ tags:
   - 코틀린 인 액션
 permalink: /categories/book/
 ---
+
 # 코틀린은 도대체 무엇일까
 자바 코드와의 상호운용성이 중시된다.<br>
 따라서 자바자 사용중인 곳에서는 거의 대부분 코틀린의 사용도 가능하다.<br>

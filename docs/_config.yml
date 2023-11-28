@@ -292,7 +292,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-# Categories
-categories: 
-  - name: Programming
-    permalink: /categories/kotlin

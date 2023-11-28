@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>Posts in the category {{ page.category | capitalize }}</h1>
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in site.categories[page.category] %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% endfor %}
+</div>

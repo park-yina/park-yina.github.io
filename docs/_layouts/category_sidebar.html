@@ -1,0 +1,12 @@
+---
+-title:Book
+children:
+-title:📗개발도서 뿌시기 
+-url:categories/develop
+---
+<ul>
+  {% for category in site.categories %}
+    <li><a href="{{ '/categories/' | relative_url }}{{ category[0] | slugify }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+  {% endfor %}
+</ul>
+
