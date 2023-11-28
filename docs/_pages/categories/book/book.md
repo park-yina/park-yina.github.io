@@ -6,7 +6,7 @@ category: book  # '📚책과 스터디' 대신에 'book'으로 변경
 ---
 <style>
   ul {
-    margin-left: 20px;  // 여백 조절
+    margin-left: 40px;  // 여백 조절
   }
 
   ul a {
