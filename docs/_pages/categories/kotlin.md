@@ -49,7 +49,7 @@ taxonomy: kotlin
       text-decoration: none;
     }
   </style>
-  <link rel="import" href="site.categories.viewport.html">
+  <link rel="import" href="/categories/viewport.html">
 </head>
 <body class="layout--categories">
   <h1> 🖥Kotlin study</h1>
