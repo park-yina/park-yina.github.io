@@ -4,7 +4,6 @@ title: Kotlin Posts
 permalink: /categories/kotlin
 taxonomy: kotlin
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -50,9 +49,7 @@ taxonomy: kotlin
       text-decoration: none;
     }
   </style>
-
-  <!-- Include viewport.html from _site/categories -->
-  <link rel="import" href="/categories/viewport.html">
+  <link rel="import" href="site.categories.viewport.html">
 </head>
 <body class="layout--categories">
   <h1> 🖥Kotlin study</h1>
