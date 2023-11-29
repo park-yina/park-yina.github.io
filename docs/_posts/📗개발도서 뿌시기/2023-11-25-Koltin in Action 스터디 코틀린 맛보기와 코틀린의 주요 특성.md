@@ -24,3 +24,4 @@ permalink: /categories/book/develop
 ⚫data class의 존재<br>
 ⚫java에서는 it.age?:0과 같이 it.age가 null이면 0을 반환하게 할 수 없다<br>
 ⚫data class를 사용하여 자동으로 toString이 되는 모습을 알 수 있다<br>
+## 정적 타입 지정 언어
