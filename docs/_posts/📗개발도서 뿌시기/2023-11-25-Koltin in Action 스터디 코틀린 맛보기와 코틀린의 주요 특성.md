@@ -25,3 +25,6 @@ permalink: /categories/book/develop
 ⚫java에서는 it.age?:0과 같이 it.age가 null이면 0을 반환하게 할 수 없다<br>
 ⚫data class를 사용하여 자동으로 toString이 되는 모습을 알 수 있다<br>
 ## 정적 타입 지정 언어
+### 정적 타입 지정 언어의 정의
+모든 프로그램의 구성 요소 타입을 컴파일 시점에서 알 수 있음 + 객체의 필드나 메서드 사용할 때마다 컴파일러가 타입을 점검해줌
+### 장점 VS 단점

@@ -4,3 +4,36 @@ title: 📚책과 스터디
 permalink: /categories/book/
 category: book  # '📗개발도서 뿌시기' 대신에 'book'으로 변경
 ---
+<h1 id="page-title" class="page__title">📚책과 스터디</h1>
+
+<ul class="taxonomy__index">
+    {% for post in site.categories.book %}
+        <li>
+            <a href="{{ post.url }}">
+                <strong>{{ post.category }}</strong> <span class="taxonomy__count">{{ post.count }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+<section id="book" class="taxonomy__section">
+    <h2 class="archive__subtitle">book</h2>
+    <div class="entries-list">
+        {% for post in site.categories.book %}
+            <div class="list__item">
+                <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                    <h2 class="archive__item-title no_toc" itemprop="headline">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="page__meta">
+                        <span class="page__meta-readtime">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            {{ post.excerpt|slice(0, 100)|truncatewords(10) }}
+                        </span>
+                    </p>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+</section>
