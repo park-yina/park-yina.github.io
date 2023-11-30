@@ -4,21 +4,18 @@ title: Kotlin Posts
 permalink: /categories/kotlin
 taxonomy: kotlin
 ---
-<style>
-  ul {
-    margin-left: 40px;  // 여백 조절
-  }
+{% assign posts = pages.categories.kotlin %}
+{% for post in posts %}
+  {% include custom-archive-single.html type=entries_layout %}
+{% endfor %}
+  {% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
 
-  ul a {
-    color: #5627a8;  // 하이퍼링크 색상 변경
-  }
-</style>
-<h1>  📖코틀린 스터디</h1>
-<content>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</content>
-<div class="entries-{{ entries_layout }}">
-  {% for post in site.categories['kotlin'] %}
-     {% include custom-archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
