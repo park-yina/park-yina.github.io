@@ -19,6 +19,6 @@ taxonomy: kotlin
 </content>
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories['kotlin'] %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+     {% include custom-archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
