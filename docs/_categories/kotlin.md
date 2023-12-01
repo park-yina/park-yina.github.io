@@ -3,6 +3,7 @@ layout: default
 title: Kotlin
 permalink: /categories/kotlin
 category: /categories/kotlin
+entries_layout: list
 ---
 <style>
   ul {
