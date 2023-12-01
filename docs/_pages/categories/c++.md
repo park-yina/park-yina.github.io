@@ -24,7 +24,7 @@ taxonomy: c++
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories['c++'] %}
+  {% for post in site.categories.cpp%}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
