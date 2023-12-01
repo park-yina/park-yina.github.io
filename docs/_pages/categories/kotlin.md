@@ -16,7 +16,7 @@ taxonomy: kotlin
 <h1> 📖kotlin</h1>
 <div class="sidebar sticky">
 <div class="entries-{{ entries_layout }}">
-  {% for post in pages.categories.kotlin %}
+  {% for post in site.categories.kotlin %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
   </div>
