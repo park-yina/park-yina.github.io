@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: Kotlin Posts
 permalink: /categories/kotlin
 taxonomy: kotlin
@@ -13,12 +13,12 @@ taxonomy: kotlin
     color: #5627a8;  // 하이퍼링크 색상 변경
   }
 </style>
-<h1>  kotlin관련 게시물 </h1>
+<h1>  📖코틀린 스터디</h1>
+<content>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</content>
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories.kotlin%}
+  {% for post in site.categories.kotlin %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
-<main>
-  {{content}}
-</main>
