@@ -13,11 +13,9 @@ taxonomy: kotlin
     color: #5627a8;  // 하이퍼링크 색상 변경
   }
 </style>
-</style>
-<h1>  📖Kotlin</h1>
-<div class="sidebar_sticky">
+<h1>  📖책과 스터디 게시물</h1>
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories['kotlin'] %}
+  {% for post in site.categories['book'] %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
