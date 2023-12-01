@@ -1,7 +1,11 @@
 # main links
 main:
 - title: "💻Coding"
-  url: /categories/kotlin
+  subcategories:
+    - title: "Kotlin"
+      url: /categories/kotlin
+    - title: "C++"
+      url: /categories/c++
 - title: "📚Book"
   url: /categories/book/
 

@@ -14,7 +14,7 @@ taxonomy: kotlin
   }
 </style>
 <div class="sidebar sticky">
-<h1>  📖코틀린 스터디</h1>
+<h1>  📖코틀린과 스터디</h1>
 <content>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </content>
