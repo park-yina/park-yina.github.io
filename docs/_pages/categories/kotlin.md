@@ -4,20 +4,38 @@ title: Kotlin Posts
 permalink: /categories/kotlin
 taxonomy: kotlin
 ---
-{% assign posts = pages.categories.kotlin %}
-{% for post in posts %}
-  {% if post.header.teaser %}
-    {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-  {% else %}
-    {% assign teaser = site.teaser %}
-  {% endif %}
+<style>
+  ul {
+    margin-left: 40px;  // 여백 조절
+  }
 
-  {% if post.id %}
-    {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-  {% else %}
-    {% assign title = post.title %}
-  {% endif %}
+  ul a {
+    color: #5627a8;  // 하이퍼링크 색상 변경
+  }
+</style>
+<h1>  📖코틀린 스터디</h1>
+<content>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</content>
 
-  {% include custom-archive-single.html type=entries_layout %}
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div>
+      <span>
+        <a href="{{ post.url }}">{{post.title}}</a>
+      </span>
+      <small> 
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i>{{ post.date | date: " %Y.%m.%d" }}
+        {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
+          {%- include post__taxonomy.html -%}
+        {% endif %}
+      </small>
+    </div>
+  </article>
+</div>
 
-{% endfor %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in site.categories['kotlin'] %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% endfor %}
+</div>
