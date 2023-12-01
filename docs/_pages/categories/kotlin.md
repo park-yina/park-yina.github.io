@@ -5,19 +5,20 @@ permalink: /categories/kotlin
 taxonomy: kotlin
 ---
 <style>
-  ul {
-    margin-left: 40px;  // 여백 조절
-  }
+  ul {
+    margin-left: 40px;  // 여백 조절
+  }
 
-  ul a {
-    color: #5627a8;  // 하이퍼링크 색상 변경
-  }
+  ul a {
+    color: #5627a8;  // 하이퍼링크 색상 변경
+  }
 </style>
 <h1> 📖kotlin</h1>
 <div class="sidebar sticky">
 <div class="entries-{{ entries_layout }}">
-  {% for post in pages.categories.kotlin %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {% endfor %}
-  </div>
+  {% for post in pages.categories.kotlin %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% endfor %}
+  </div>
 </div>
+
