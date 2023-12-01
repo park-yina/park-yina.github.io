@@ -18,9 +18,9 @@ taxonomy: kotlin
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </content>
 <div class="sidebar sticky">
+</div>
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories.kotlin %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
-  </div>
 </div>
