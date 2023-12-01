@@ -17,7 +17,7 @@ taxonomy: cpp
 </content>
 </div>
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories.kotlin %}
+  {% for post in site.categories.cpp %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
