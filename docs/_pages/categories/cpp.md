@@ -1,7 +1,7 @@
 ---
 layout: default
 title: cpp Posts
-permalink: /categories/kotlin
+permalink: /categories/cpp
 taxonomy: cpp
 ---
 <style>
