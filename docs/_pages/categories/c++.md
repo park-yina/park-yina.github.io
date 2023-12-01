@@ -1,7 +1,7 @@
 ---
 layout: default
 title: c++풀기
-permalink: /categories/c++
+permalink: /categories/cpp
 taxonomy: c++
 ---
 <style>
