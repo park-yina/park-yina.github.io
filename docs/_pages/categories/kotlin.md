@@ -35,7 +35,7 @@ taxonomy: kotlin
 </div>
 
 <div class="entries-{{ entries_layout }}">
-  {% for post in site.categories['kotlin'] %}
+  {% for post in pages.categoires.kotlin %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
 </div>
