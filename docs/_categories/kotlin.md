@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kotlin
-permalink: /categories/coding/kotlin/
+permalink: /categories/kotlin
 category: /categories/kotlin
 ---
 <style>
