@@ -14,7 +14,6 @@ taxonomy: kotlin
   }
 </style>
 <h1> 📖Kotlin Posts</h1>
-<div class="sidebar sticky">
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories['kotlin'] %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
