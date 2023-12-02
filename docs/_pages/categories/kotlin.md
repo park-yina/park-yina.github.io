@@ -20,6 +20,8 @@ taxonomy: kotlin
 </content>
 </div>
 <div class="entries-{{ entries_layout }}">
+<h1>스터디 자료</h1>
+<hr>
   {% for post in site.categories.kotlin %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
