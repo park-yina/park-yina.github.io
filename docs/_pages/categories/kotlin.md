@@ -13,8 +13,7 @@ taxonomy: kotlin
     color: #5627a8;  // 하이퍼링크 색상 변경
   }
 </style>
-<div class="sidebar sticky">
-<h1>  📖코틀린과 스터디</h1>
+<h1>📱Koltin</h1>
 <content>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </content>
