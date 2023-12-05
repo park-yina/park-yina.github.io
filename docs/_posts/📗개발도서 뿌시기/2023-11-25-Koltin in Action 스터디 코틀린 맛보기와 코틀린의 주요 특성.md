@@ -57,5 +57,7 @@ permalink: /categories/book/develop
 # 함수형 프로그래밍과 객체지향 프로그래밍
 ## 함수형 프로그래밍의 핵심 개념
 
+# 관련 내용 정리 게시물
+[클래스와 인터페이스](https://park-yina.github.io/categories/kotlin/class)
 # 공부 시 참고한 링크
 [정적타입과 동적 타입에 대한 게시물](https://algorfati.tistory.com/112)
