@@ -12,10 +12,9 @@ taxonomy: cpp
 <div class="sidebar sticky">
 <h1>cpp</h1>
 <hr>
-<content>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</content>
-</div>
+</head>
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories.cpp %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
