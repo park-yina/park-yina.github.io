@@ -9,7 +9,6 @@ taxonomy: cpp
     margin-left: 40px;  // 여백 조절
   }
 </style>
-<div class="sidebar sticky">
 <h1>cpp</h1>
 <hr>
 <head>
