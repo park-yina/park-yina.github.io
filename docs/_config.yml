@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "park-yina"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "coding&&arts"
   location         : "Korea"
   email            : "kln99988@naver.com"
@@ -118,7 +118,7 @@ author:
       # url: "kln99988@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      # url: "https://github.com/park-yina"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
