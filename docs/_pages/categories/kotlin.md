@@ -6,7 +6,7 @@ taxonomy: kotlin
 ---
 <h1 style="
     margin-left: 10px;
-">📱Koltin</h1>
+">📱Kotlin</h1>
 <hr>
 <content>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
