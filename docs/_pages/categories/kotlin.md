@@ -15,6 +15,5 @@ taxonomy: kotlin
 style="margin-left: 30px;">
 <h1>스터디 자료</h1>
   {% for post in site.categories.kotlin %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.url }}">{{ post.title }}
   {% endfor %}
-</div>
