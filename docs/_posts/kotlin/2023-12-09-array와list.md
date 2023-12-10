@@ -21,3 +21,6 @@ Array와 List중 무엇을 쓸 지에 대한 고민은 한 적도 없었다.<br>
 `val array=arrayof(1,2,3)`이 있으면<br>
 array의 경우 `array[0]`과 같은 직관적 방식으로 접근이 가능하다.<br>
 그러나 List의 경우 `list.indices` for문을 사용하는 등 한 단계를 더 거쳐야한다<br>
+# 공부 시 참조 링크
+[공식 레퍼런스 array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/)<br>
+
