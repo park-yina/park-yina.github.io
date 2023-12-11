@@ -2,7 +2,7 @@
 main:
 - title: "💻코딩하는 예대생"
   url: /categories/me
-- title: "📚Book"
+- title: "📚모아보기"
   url: /categories/book/
 
   # - title: "About"
