@@ -4,7 +4,8 @@ main:
   url: /categories/me
 - title: "📚모아보기"
   url: /categories/book/
-
+- title: "블로그 소개"
+  url: /categories/blog/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
