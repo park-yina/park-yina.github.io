@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kotlin Posts
-permalink: /categories/kotlin
+permalink: /categories/kotlin/
 taxonomy: kotlin
 ---
 <h1 style="
