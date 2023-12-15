@@ -13,6 +13,6 @@ taxonomy: spring
 </content>
 <div class="entries-{{ entries_layout }}"
 style="margin-left: 30px;">
-  {% for post in site.categories.kotlin %}
+  {% for post in site.categories.spring %}
     <h2><a href="{{ post.url }}">{{ post.title }}
   {% endfor %}
