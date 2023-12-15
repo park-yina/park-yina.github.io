@@ -1,5 +1,5 @@
 ---
-title: "Kotlin in Action 스터디 - 코틀린 맛보기와 코틀린의 주요 특성"
+title: "Kotlin in Action 1챕터"
 toc: true
 toc_sticky: true
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - 안드로이드
   - 코틀린 인 액션
-permalink: /categories/book/develop
+permalink: /categories/book/KotlinInAction/chapter1
 ---
 
 # 코틀린은 도대체 무엇일까
