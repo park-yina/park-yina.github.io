@@ -129,12 +129,13 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kln99988@naver.com"
+    - label: "Kotlin바로가기"
+      icon: "fa-solid fa-mobile"
+      url: "https://park-yina.github.io/categories/kotlin/"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: "개발도서"
+      icon: "fa-solid fa-book"
+      url: "https://park-yina.github.io/categories/book"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
