@@ -17,5 +17,12 @@
     {% endunless %}
   </ul>
 </div>
+<div class="page_footer-pagemap">
+  <ul class="page-map">
+    {% if site.posts.categories.kotlin%}
+      <li><a href="{{ site.url }}/categories/kotlin">코틀린 게시물 모아보기</a></li>
+    {% endif %}
+  </ul>
+</div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
