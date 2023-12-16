@@ -12,17 +12,13 @@
       {% endfor %}
     {% endif %}
 
+    <!-- 새로 추가한 아이콘들 -->
+    <li><i class="fas fa-book"></i></li>
+    <li><i class="fas fa-mobile" style="color: #5df40b;"></i></li>
+    
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
   </ul>
 </div>
-<div class="page_footer-pagemap">
-  <ul class="page-map">
-    {% if site.posts.categories.kotlin%}
-      <li><a href="{{ site.url }}/categories/kotlin">코틀린 게시물 모아보기</a></li>
-    {% endif %}
-  </ul>
-</div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
