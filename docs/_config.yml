@@ -132,7 +132,6 @@ footer:
     - label: "Kotlin바로가기"
       icon: "fa-solid fa-mobile"
       url: "https://park-yina.github.io/categories/kotlin/"
-      # url:
     - label: "개발도서"
       icon: "fa-solid fa-book"
       url: "https://park-yina.github.io/categories/book"

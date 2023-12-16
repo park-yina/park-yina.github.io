@@ -7,18 +7,10 @@
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endif %}
       {% endfor %}
     {% endif %}
-
-    <!-- 새로 추가한 아이콘들 -->
-    <li><i class="fas fa-book"></i></li>
-    <li><i class="fas fa-mobile" style="color: #5df40b;"></i></li>
-    
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
   </ul>
 </div>
 
