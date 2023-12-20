@@ -7,7 +7,7 @@ categories:
 tags:
   - 안드로이드
   - 코틀린 인 액션
-permalink: /categories/book/KotlinInAction/chapter2
+permalink: /categories/book/KotlinInAction/chapter2/session1
 ---
 # [1장 바로가기](https://park-yina.github.io/categories/book/KotlinInAction/chapter1)
 # 함수와 변수
