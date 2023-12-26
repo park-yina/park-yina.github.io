@@ -6,7 +6,7 @@ taxonomy: kotlin
 ---
 {% assign kotlin_posts = site.categories.kotlin %}
 
-<h1 style="margin-left: 10px;">📱Kotlin</h1>
+<h1 style="margin-left: 10px;">📌Kotlin</h1>
 <hr>
 <div class="entries-{{ entries_layout }}" style="margin-left: 30px;">
   <ul>
