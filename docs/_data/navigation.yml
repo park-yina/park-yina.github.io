@@ -1,9 +1,7 @@
 # main links
 main:
-- title: "💻코딩하는 예대생"
-  url: /categories/me
-- title: "📚모아보기"
-  url: /categories/book/
+- title: "📌공지사항"
+  url: /categories/notice
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
