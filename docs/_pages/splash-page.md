@@ -19,12 +19,12 @@ feature_row:
     url: "https://roan-clipper-74c.notion.site/1026a8e68f3642e8a4b64380197056f9?v=d9bc13cada834f9f96df9fe37d528973"
     btn_label: "개발도서 정리본"
     btn_class: "btn--primary"
-  - image_path: /assets/images/john-schnobrich-bNCKsUyQYmM-unsplash.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/kevin-ku-w7ZyuCYNpRQ-unsplash.jpg
+    alt: "알고리즘"
+    title: "Alogrithm"
+    excerpt: "백준 및 기타 온라인 저지 사이트 알고리즘 풀이를 정리한 페이지입니다."
+    url: "https://www.notion.so/0e56be20c14640b3b92673cab4d08602?v=13fbd28324c54759a28b3d95a8633d6f"
+    btn_label: "알고리즘 문제풀이 바로가기"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
