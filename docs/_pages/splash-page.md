@@ -26,9 +26,6 @@ feature_row:
     url: "https://www.notion.so/0e56be20c14640b3b92673cab4d08602?v=13fbd28324c54759a28b3d95a8633d6f"
     btn_label: "알고리즘 문제풀이 바로가기"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 {% include feature_row id="intro" type="center" %}
