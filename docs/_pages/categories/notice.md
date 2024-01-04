@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notice Posts
-permalink:  /categories/splash-Page
+permalink:  /categories/notice
 taxonomy: Notice
 ---
-{% assign Notice_posts = site.categories.splash-Page %}
+{% assign Notice_posts = site.categories.notice%}
