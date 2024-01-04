@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Liter
-permalink: /categories/Liter
-taxonomy: kotlin
+title: Blog아카이브
+permalink: /categories/Intro
+taxonomy: Blog
 ---
-{% assign liter_posts = site.categories.Liter %}
+{% assign blog_posts = site.categories.Intro %}
 
-<h1 style="margin-left: 10px;">📚문학에 대한 기록</h1>
+<h1 style="margin-left: 10px;">블로그 아카이브</h1>
 <hr>
 <div class="entries-{{ entries_layout }}" style="margin-left: 30px;">
   <ul>
