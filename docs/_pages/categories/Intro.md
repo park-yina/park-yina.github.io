@@ -10,7 +10,7 @@ taxonomy: Blog
 <hr>
 <div class="entries-{{ entries_layout }}" style="margin-left: 30px;">
   <ul>
-    {% for post in liter_posts %}
+    {% for post in blog_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
