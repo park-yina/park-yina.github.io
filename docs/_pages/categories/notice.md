@@ -2,6 +2,6 @@
 layout: default
 title: Notice Posts
 permalink:  /categories/notice
-taxonomy: Notice
+taxonomy: category
 ---
-{% assign Notice_posts = site.categories.notice%}
+{% assign Notice_posts = site.categories.notice %}
