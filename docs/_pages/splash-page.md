@@ -19,7 +19,7 @@ feature_row:
     url: "https://roan-clipper-74c.notion.site/1026a8e68f3642e8a4b64380197056f9?v=d9bc13cada834f9f96df9fe37d528973"
     btn_label: "개발도서 정리본"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kevin-ku-w7ZyuCYNpRQ-unsplash.jpg
+  - image_path: https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: "알고리즘"
     title: "Alogrithm"
     excerpt: "백준 및 기타 온라인 저지 사이트 알고리즘 풀이를 정리한 페이지입니다."
