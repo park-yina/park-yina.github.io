@@ -16,7 +16,7 @@ feature_row:
     alt: "개발도서 정리"
     title: "개발도서 정리"
     excerpt: "개발도서 읽기 페이지를 도서별/챕터별로 정리한 노션 페이지 입니다"
-    url: "https://roan-clipper-74c.notion.site/1026a8e68f3642e8a4b64380197056f9?v=d9bc13cada834f9f96df9fe37d528973"
+    url: "https://roan-clipper-74c.notion.site/ffed5a5170a64859bd7d201d8e002dcd?v=df837f84b22248dda5227b24d7db340b"
     btn_label: "개발도서 정리본"
     btn_class: "btn--primary"
   - image_path: https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
