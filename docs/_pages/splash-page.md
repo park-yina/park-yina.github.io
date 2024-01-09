@@ -5,7 +5,6 @@ permalink: /categories/notice
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/splash/libray.jpg
   actions:
     - label: "블로그 주인의 자기소개서"
       url: "https://park-yina.github.io/categories/me"
