@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Posts in the category Kotlin"  # 원하는 제목으로 수정
+permalink: /categories/kotlin/
+---
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include posts-category.html taxonomy=page.category type=entries_layout %}
+</div>
