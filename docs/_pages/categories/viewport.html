@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kotlin Posts - 우당탕탕 코틀린</title>
+
+  <!-- 추가한 부분: 스타일 시작 -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    .masthead {
+      background-color: #5627a8;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .masthead__menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-title {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .greedy-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .visible-links li {
+      list-style: none;
+      margin-right: 20px;
+      font-size: 16px;
+    }
+
+    .search__toggle, .greedy-nav__toggle {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .author__content {
+      text-align: center;
+    }
+
+    .author__name {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .author__bio {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .taxonomy__index {
+      list-style: none;
+      padding: 0;
+    }
+
+    .taxonomy__index li {
+      margin-bottom: 10px;
+    }
+
+    .taxonomy__index a {
+      text-decoration: none;
+      color: #5627a8;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .taxonomy__count {
+      margin-left: 10px;
+      color: #777;
+      font-size: 16px;
+    }
+
+    .taxonomy__section {
+      margin-bottom: 40px;
+    }
+
+    .archive__subtitle {
+      font-size: 24px;
+      color: #5627a8;
+    }
+
+    .entries-list {
+      padding: 0;
+      list-style: none;
+    }
+
+    .archive__item {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .archive__item-title {
+      font-size: 20px;
+      color: #5627a8;
+      text-decoration: none;
+    }
+
+    .archive__item-excerpt {
+      font-size: 16px;
+      color: #777;
+    }
+
+    .back-to-top {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+      color: #5627a8;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .search-content {
+      display: none;
+    }
+
+    .page__footer {
+      padding: 20px;
+      background-color: #5627a8;
+      color: #fff;
+      text-align: center;
+    }
+
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .social-icons li {
+      margin: 0 10px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .page__footer-copyright {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #fff;
+    }
+  </style>
+  <!-- 추가한 부분: 스타일 끝 -->
+</head>
+<body class="layout--categories">
+  <!-- begin _includes/seo.html --><title>Kotlin Posts - 우당탕탕 코틀린</title>
+<meta name="description" content="kotlin 위주의 스터디 자료 저장소.">
+
+
+<meta name="author" content="park-yina">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="우당탕탕 코틀린">
+<meta property="og:title" content="Kotlin Posts">
+<meta property="og:url" content="https://park-yina.github.io/categories/kotlin">
+
+
+<meta property="og:description" content="kotlin 위주의 스터디 자료 저장소.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://park-yina.github.io/categories/kotlin">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  
+    "@type": "Person",
+    "name": "park-yina",
+    "url": "https://park-yina.github.io/"
+  
+}
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="우당탕탕 코틀린 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+  <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body class="layout--categories">
+  <nav class="skip-links">
+<ul>
+  <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+  <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+  <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+</ul>
+</nav>
+
+  
+
+<div class="masthead">
+<div class="masthead__inner-wrap">
+  <div class="masthead__menu">
+    <nav id="site-nav" class="greedy-nav">
+      
+      <a class="site-title" href="/">
+        우당탕탕 코틀린
+        
+      </a>
+      <ul class="visible-links"><li class="masthead__menu-item">
+            <a href="/categories/kotlin/">💻Coding</a>
+          </li><li class="masthead__menu-item">
+            <a href="/categories/book/">📚Book</a>
+          </li></ul>
+      
+      <button class="search__toggle" type="button">
+        <span class="visually-hidden">Toggle search</span>
+        <i class="fas fa-search"></i>
+      </button>
+      
+      <button class="greedy-nav__toggle hidden" type="button" count="0">
+        <span class="visually-hidden">Toggle menu</span>
+        <div class="navicon"></div>
+      </button>
+      <ul class="hidden-links hidden"></ul>
+    </nav>
+  </div>
+</div>
+</div>
+
+
+  <div class="initial-content">
+    
+
+
+
+<div id="main" role="main">
+
+<div class="sidebar sticky">
+
+
+
+<div itemscope="" itemtype="https://schema.org/Person" class="h-card">
+
+
+
+<div class="author__content">
+  <h3 class="author__name p-name" itemprop="name">
+    <a class="u-url" rel="me" href="https://park-yina.github.io/" itemprop="url">park-yina</a>
+  </h3>
+  
+    <div class="author__bio p-note" itemprop="description">
+      <p>coding&amp;&amp;arts</p>
+
+    </div>
+  
+</div>
+
+<div class="author__urls-wrapper">
+  <button class="btn btn--inverse">Follow</button>
+  <ul class="author__urls social-icons">
+    
+      <li itemprop="homeLocation" itemscope="" itemtype="https://schema.org/Place">
+        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Korea</span>
+      </li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+
+    
+      <li>
+        <a href="mailto:kln99988@naver.com" rel="me" class="u-email">
+          <meta itemprop="email" content="kln99988@naver.com">
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+        </a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!--
+<li>
+  <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+    <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+  </a>
+</li>
+-->
+    <!-- Categories -->
+<nav class="nav__list">
+<ul class="nav__items" id="category_tag_menu">
+    <li>
+        <span class="nav__sub-title"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+          <defs><linearGradient x1="14.296" y1="42.833" x2="14.296" y2="53.022" gradientUnits="userSpaceOnUse" id="color-1_44005_gr1"><stop offset="0" stop-color="#95facc"></stop><stop offset="1" stop-color="#6ec8ff"></stop></linearGradient><linearGradient x1="32" y1="8" x2="32" y2="55.938" gradientUnits="userSpaceOnUse" id="color-2_44005_gr2"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient><linearGradient x1="33" y1="8" x2="33" y2="55.938" gradientUnits="userSpaceOnUse" id="color-3_44005_gr3"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient><linearGradient x1="49" y1="8" x2="49" y2="55.938" gradientUnits="userSpaceOnUse" id="color-4_44005_gr4"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient><linearGradient x1="49" y1="8" x2="49" y2="55.938" gradientUnits="userSpaceOnUse" id="color-5_44005_gr5"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient><linearGradient x1="32" y1="8" x2="32" y2="55.938" gradientUnits="userSpaceOnUse" id="color-6_44005_gr6"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient><linearGradient x1="32" y1="8" x2="32" y2="55.938" gradientUnits="userSpaceOnUse" id="color-7_44005_gr7"><stop offset="0" stop-color="#2af598"></stop><stop offset="1" stop-color="#009efd"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M11.702,43.702l6.596,6.596c0.628,0.628 0.183,1.702 -0.705,1.702h-5.593c-1.105,0 -2,-0.895 -2,-2v-5.593c0,-0.888 1.074,-1.333 1.702,-0.705z" fill="url(#color-1_44005_gr1)"></path><path d="M55,20h-1v-6c0,-1.654 -1.346,-3 -3,-3v-1c0,-1.103 -0.897,-2 -2,-2h-34c-1.103,0 -2,0.897 -2,2v1c-1.654,0 -3,1.346 -3,3v6h-1c-1.654,0 -3,1.346 -3,3v6v1v21c0,2.757 2.243,5 5,5h42c2.757,0 5,-2.243 5,-5v-20v-2v-6c0,-1.654 -1.346,-3 -3,-3zM55,22c0.552,0 1,0.448 1,1v2.026c-0.584,-0.442 -1.257,-0.773 -2,-0.925v-2.101zM15,10h34v1h-34zM13,13h38c0.552,0 1,0.448 1,1v10h-9.929c-1.007,0 -1.94,0.5 -2.497,1.337l-2.813,4.218c-0.186,0.278 -0.496,0.445 -0.832,0.445h-7.857c-0.336,0 -0.646,-0.167 -0.833,-0.446l-2.813,-4.216c-0.557,-0.838 -1.49,-1.338 -2.497,-1.338h-9.929v-10c0,-0.552 0.448,-1 1,-1zM9,22h1v2.101c-0.743,0.152 -1.416,0.482 -2,0.925v-2.026c0,-0.552 0.448,-1 1,-1zM56,51c0,1.654 -1.346,3 -3,3h-42c-1.654,0 -3,-1.346 -3,-3v-21v-1c0,-1.654 1.346,-3 3,-3h10.929c0.336,0 0.646,0.167 0.833,0.446l2.813,4.216c0.556,0.838 1.489,1.338 2.496,1.338h7.857c1.007,0 1.94,-0.5 2.497,-1.337l2.813,-4.218c0.187,-0.278 0.497,-0.445 0.833,-0.445h10.929c1.654,0 3,1.346 3,3v2z" fill="url(#color-2_44005_gr2)"></path><path d="M21,17h24v2h-24z" fill="url(#color-3_44005_gr3)"></path><path d="M44,50h10v2h-10z" fill="url(#color-4_44005_gr4)"></path><path d="M44,46h10v2h-10z" fill="url(#color-5_44005_gr5)"></path><path d="M27,21h10v2h-10z" fill="url(#color-6_44005_gr6)"></path><path d="M29,25h6v2h-6z" fill="url(#color-7_44005_gr7)"></path></g></g>
+          </svg> Total (2)</span>
+        <ul>
+            
+                
+                <li>
+                    <a href="/categories/kotlin" class="">kotlin (1)</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/categories/book" class="">book (1)</a>
+                </li>
+                
+            
+        </ul>
+    </li>
+</ul>
+</nav>
+  </ul>
+</div>
+</div>
+
+
+</div>
+
+
+
+<div class="archive">
+  
+    
+  
+  
+
+
+
+
+
+<ul class="taxonomy__index">
+
+  
+    
+      <li>
+        <a href="#kotlin">
+          <strong>kotlin</strong> <span class="taxonomy__count">1</span>
+        </a>
+      </li>
+    
+  
+    
+      
+    
+  
+
+</ul>
+
+
+
+
+  
+    <section id="kotlin" class="taxonomy__section">
+      <h2 class="archive__subtitle">kotlin</h2>
+      <div class="entries-list">
+        
+          
+
+
+
+<div class="list__item">
+<article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+  
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    
+      <a href="/categories/kotlin/" rel="permalink">4week 리팩토링 - 주요 지적사항 및 enum과 object에 대하여
+</a>
+    
+  </h2>
+  
+
+<p class="page__meta">
+  
+
+  
+
+  
+    
+    
+
+    <span class="page__meta-readtime">
+      <i class="far fa-clock" aria-hidden="true"></i>
+      
+        3 minute read
+      
+    </span>
+  
+</p>
+
+
+  <p class="archive__item-excerpt" itemprop="description">이번주 주요 지적사항
+
+</p>
+</article>
+</div>
+        
+      </div>
+      <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+    </section>
+  
+
+  
+    
+  
+
+
+
+</div>
+</div>
+  </div>
+
+  
+    <div class="search-content">
+      <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+  <label class="sr-only" for="search">
+    Enter your search term...
+  </label>
+  <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+</form>
+<div id="results" class="results"></div></div>
+
+    </div>
+  
+
+  <div id="footer" class="page__footer">
+    <footer>
+      <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+      <div class="page__footer-follow">
+<ul class="social-icons">
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  
+</ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 park-yina. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+    </footer>
+  </div>
+
+  
+<script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+
+
+</body></html>
+</body>
+</html>
