@@ -24,7 +24,7 @@ description              : "kotlin 위주의 스터디 자료 저장소."
 url                      : # the base hostname & protocol for your site e.g. "https://park-yina.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "park-yina/park-yina.github.io" # GitHub username/repo-name e.g.
-teaser                   : "https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+teaser                   : "/assets/images/john-schnobrich-bNCKsUyQYmM-unsplash.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
