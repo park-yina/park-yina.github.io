@@ -143,7 +143,6 @@
       .prev_next {
         color:#8fc0ff;
       }
-    }
     &:hover {
       @include yiq-contrasted($muted-text-color);
     }
