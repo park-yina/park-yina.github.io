@@ -33,7 +33,7 @@ feature_row:
     excerpt: "cs app및 cs50공부사항 정리입니다."
     url: "https://roan-clipper-74c.notion.site/577eb2d4ed4346f8a421a73c8df6975e"
     btn_label: "cs공부 바로가기"
-    btn_class: "btn--dafult"
+    btn_class: "btn--notice"
 ---
 
 {% include feature_row id="intro" type="center" %}
