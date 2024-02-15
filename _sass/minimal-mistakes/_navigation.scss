@@ -112,7 +112,7 @@
     }
   
     .pagination_prev_next {
-      @include clearfix();
+      @include clearfix;
       float: left;
       width: 100%;
     
