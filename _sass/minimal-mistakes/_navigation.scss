@@ -50,7 +50,7 @@
      Post pagination navigation links
      ========================================================================== */
 
-.pagination {
+.pagination
   @include clearfix();
   float: left;
   margin-top: 1em;
@@ -143,6 +143,8 @@
       .prev_next {
         color:#8fc0ff;
       }
+    }
+  }
     &:hover {
       @include yiq-contrasted($muted-text-color);
     }
