@@ -112,10 +112,6 @@
     }
   
     /* next/previous buttons */
-    .pagination_prev_next {
-      display: block;
-      float: left;
-      width: 100%;
     
       /* next/previous buttons */
       #prev{
@@ -130,8 +126,11 @@
         color: $muted-text-color;
         border: 1px solid mix(#000, $border-color, 25%);
         border-radius: $border-radius;
+        display: block;
+        float: left;
+        width: 100%;
       }
-  }
+  
 .page__content + .pagination,
 .page__meta + .pagination,
 .page__share + .pagination,
