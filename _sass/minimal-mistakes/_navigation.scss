@@ -119,7 +119,7 @@
 
   /* next/previous buttons */
   .pagination_prev_next {
-    @include clearfix();
+    @include clearfix(); // 수정된 부분
     float: left;
     width: 100%;
   
@@ -145,6 +145,7 @@
       }
     }
   }
+
     &:hover {
       @include yiq-contrasted($muted-text-color);
     }
