@@ -122,7 +122,7 @@
         padding-top: 0em;
         display: block;
         padding: 1em 2em;
-        //float: left;
+        float: left;
         width: 100%;
         font-family: $sans-serif;
         font-size: $type-size-5;
@@ -138,6 +138,7 @@
         }
       }
     }
+    
       
 .page__content + .pagination,
 .page__meta + .pagination,
