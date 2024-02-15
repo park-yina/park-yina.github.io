@@ -111,23 +111,34 @@
       }
     }
   
-    /* next/previous buttons */
+    .pagination_prev_next {
+      @include clearfix();
+      float: left;
+      width: 100%;
     
       /* next/previous buttons */
-      #prev {
-        margin-top: 0;
+      &--pager {
+        margin-top: 0em;
+        padding-top: 0em;
+        display: block;
         padding: 1em 2em;
+        //float: left;
+        width: 100%;
+        font-family: $sans-serif;
+        font-size: $type-size-5;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
-        color: $muted-text-color; // 이 색상 변수는 미리 정의되어야 합니다.
-        border: 1px solid mix(#000, $border-color, 25%); // 미리 정의된 변수를 사용하거나 색상 값을 직접 지정해야 합니다.
-        border-radius: $border-radius; // 또한 이 변수도 미리 정의되어야 합니다.
-        clear: left; // 왼쪽 플로팅 요소들을 모두 지우고 다음 줄로 넘깁니다.
-        display: block; // 블록 수준의 요소로 지정합니다.
-        float: left; // 왼쪽으로 플로팅합니다.
-        width: 100%; // 부모 요소의 가로 폭을 가득 채우도록 합니다.
+        color: $muted-text-color;
+        border: 1px solid mix(#000, $border-color, 25%);
+        border-radius: $border-radius;
+    
+        .prev_next {
+          font-family: $cute;
+          color:#ffd861;
+        }
       }
+    }
       
 .page__content + .pagination,
 .page__meta + .pagination,
