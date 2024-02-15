@@ -108,7 +108,6 @@ author:
   avatar           : "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "예고 졸업생의 우당탕탕 코딩 도전기"
   location         : "Korea"
-  email            : "kln99988@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
