@@ -50,11 +50,6 @@
        Post pagination navigation links
        ========================================================================== */
   
-  .pagination {
-    float: left;
-    margin-top: 1em;
-    padding-top: 1em;
-    width: 100%;
   
     ul {
       margin: 0;
@@ -128,19 +123,16 @@
         padding-top: 0em;
         display: block;
         padding: 1em 2em;
-        //float: left;
         width: 100%;
-        font-family: $sans-serif;
-        font-size: $type-size-5;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
         color: $muted-text-color;
         border: 1px solid mix(#000, $border-color, 25%);
         border-radius: $border-radius;
-        #prev{
-          color:#ffd861;
-        }
+      }
+      #prev{
+        color:#ffd861;
       }
   }
 .page__content + .pagination,
