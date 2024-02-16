@@ -14,7 +14,8 @@ taxonomy: jungle
     {% for post in jungle_posts %}
       <li>
       {% if post.header.teaser %}
-      <img src="{{ post.header.teaser }}" alt="Teaser Image" max-width:100px;>
+      <img src="{{ post.header.teaser }}" alt="Teaser Image" style="max-width:100px;">
+
       {% endif %}
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
