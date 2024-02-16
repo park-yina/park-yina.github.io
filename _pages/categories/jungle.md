@@ -12,7 +12,10 @@ taxonomy: jungle
   <ul>
     {% for post in jungle_posts %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% if post.header.teaser %}
+      <img src="{{ site.baseurl }}/{{ post.header.teaser }}" alt="Teaser Image">
+      {% endif %}
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
