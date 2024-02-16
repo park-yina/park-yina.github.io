@@ -3,6 +3,7 @@ layout: default
 title: 크래프톤 정글
 permalink: /categories/jungle/
 taxonomy: jungle
+
 ---
 {% assign jungle_posts = site.categories.jungle %}
 
