@@ -26,14 +26,6 @@ feature_row:
     url: "https://www.notion.so/0e56be20c14640b3b92673cab4d08602?v=13fbd28324c54759a28b3d95a8633d6f"
     btn_label: "알고리즘 문제풀이 바로가기"
     btn_class: "btn--primary"
-  - image_path: https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    image_caption: "cs:app정리"
-    alt: "cs공부"
-    title: "cs"
-    excerpt: "cs app및 cs50공부사항 정리입니다."
-    url: "https://roan-clipper-74c.notion.site/577eb2d4ed4346f8a421a73c8df6975e"
-    btn_label: "cs공부 바로가기"
-    btn_class: "btn--notice"
 ---
 
 {% include feature_row id="intro" type="center" %}
