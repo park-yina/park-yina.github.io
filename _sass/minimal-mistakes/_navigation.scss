@@ -467,9 +467,7 @@
   
     a {
       color: inherit;
-      font-size: $type-size-3;
-      color: mix(#fff,$primary-color,80%);
-  
+      font-size: $type-size-3;  
       &:hover {
         text-decoration: underline;
       }
