@@ -1,7 +1,7 @@
 ---
 layout: default
 title: C언어
-permalink: /categories/C/
+permalink: /categories/C
 taxonomy: C언어
 ---
 {% assign C = site.categories.c %}
