@@ -5,10 +5,10 @@
   	{% assign prevIndex = forloop.index0 | minus: 1 %}
   	{% assign nextIndex = forloop.index0 | plus: 1 %}
   	{% if forloop.first == false %}
-  	  {% assign next_post = cat_list[prevIndex] %}
+  	  {% assign next_post = p_list[prevIndex] %}
   	{% endif %}
   	{% if forloop.last == false %}
-  	  {% assign prev_post = cat_list[nextIndex] %}
+  	  {% assign prev_post = p_list[nextIndex] %}
   	{% endif %}
   	{% break %}
   {% endif %}
