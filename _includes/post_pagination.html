@@ -1,5 +1,5 @@
-{% assign cat = page.categories[0] %}
-{% assign cat_list = site.categories[cat] %}
+{% assign p = page.categories[0] %}
+{% assign p_list = site.categories[p] %}
 {% for post in cat_list %}
   {% if post.url == page.url %}
   	{% assign prevIndex = forloop.index0 | minus: 1 %}
