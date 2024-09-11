@@ -12,7 +12,7 @@ pagination:
 
 <h1 style="margin-left: 10px;">프로젝트</h1>
 <div class="card-container" style="display: flex; flex-wrap: wrap; margin-left: 30px;">
-  {% for post in paginator.posts %}
+  {% for post in project_posts %}
   <div class="card" style="width: calc(50% - 20px); margin: 10px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
     {% if post.header.teaser %}
     <div class="card-image" style="max-height: 200px; overflow: hidden;">
@@ -29,4 +29,5 @@ pagination:
 </div>
 
 {% include paginator.html %}
+
 
