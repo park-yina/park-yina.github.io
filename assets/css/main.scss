@@ -13,3 +13,56 @@ search: false
     font-weight: 400;
     font-style: normal;
 }
+/* 카드 컨테이너 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    justify-content: space-between;
+  }
+  
+  /* 카드 */
+  .card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* 카드 이미지 */
+  .card-image {
+    max-height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* 카드 내용 */
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card-content a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .card-content a:hover {
+    color: #0073e6;
+  }
+  

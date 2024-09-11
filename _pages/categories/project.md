@@ -11,18 +11,22 @@ pagination:
 {% assign project_posts = site.categories.project %}
 
 <h1 style="margin-left: 10px;">프로젝트</h1>
-<hr>
-<div class="entries-{{ entries_layout }}" style="margin-left: 30px;">
-  <ul style="display: flex; flex-wrap: wrap;">
-    {% for post in paginator.posts %}
-      <li style="list-style: none; margin-bottom: 10px; width: calc(50% - 5px);">
-      {% if post.header.teaser %}
-      <img src="{{ post.header.teaser }}" alt="Teaser Image" style="max-width:100px;">
-      {% endif %}
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="card-container" style="display: flex; flex-wrap: wrap; margin-left: 30px;">
+  {% for post in paginator.posts %}
+  <div class="card" style="width: calc(50% - 20px); margin: 10px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    {% if post.header.teaser %}
+    <div class="card-image" style="max-height: 200px; overflow: hidden;">
+      <img src="{{ post.header.teaser }}" alt="Teaser Image" style="width: 100%; object-fit: cover;">
+    </div>
+    {% endif %}
+    <div class="card-content" style="padding: 15px;">
+      <h2 style="font-size: 18px; margin: 0;">
+        <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color: #333;">{{ post.title }}</a>
+      </h2>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 {% include paginator.html %}
+
