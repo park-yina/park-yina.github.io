@@ -2,6 +2,8 @@
 main:
 - title: "📌공지사항"
   url: /categories/notice
+- tite: "주요 프로젝트"
+  url: /categories/project/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
