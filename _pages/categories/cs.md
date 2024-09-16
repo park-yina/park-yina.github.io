@@ -2,9 +2,11 @@
 layout: default
 title: CS 그리고 알고리즘
 permalink: /categories/cs/
+pagination: 
+  enabled: true
 taxonomy: cs
 ---
-{% assign project_posts = site.categories.cs %}
+{% assign project_posts = paginator.posts %}
 
 <div class="card-container" style="display: flex; flex-wrap: wrap; margin-left: 30px;">
   {% for post in project_posts %}
@@ -24,5 +26,3 @@ taxonomy: cs
 </div>
 
 {% include paginator.html %}
-s
-

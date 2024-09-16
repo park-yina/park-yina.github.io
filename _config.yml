@@ -256,6 +256,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+collections:
+  cs:
+    output: true
+    permalink: /:categories/:title/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
