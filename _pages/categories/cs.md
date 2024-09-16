@@ -6,7 +6,7 @@ pagination:
   enabled: true
 taxonomy: cs
 ---
-{% assign project_posts = paginator.posts %}
+{% assign project_posts = paginator.posts | where: "categories", "cs" %}
 
 <div class="card-container" style="display: flex; flex-wrap: wrap; margin-left: 30px;">
   {% for post in project_posts %}
