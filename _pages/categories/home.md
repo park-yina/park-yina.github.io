@@ -1,8 +1,6 @@
 ---
 layout: archive
-title: home
 author_profile: true
-
 permalink: /
 pagination:
   enabled: true
