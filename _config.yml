@@ -216,20 +216,25 @@ sass:
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: Asia/Seoul
-
-
-# Plugins (previously gems:)
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+pagination: 
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  title: ':title'
+  trail:
+    before: 2
+    after: 2    
 
 # mimic GitHub Pages with --safe
 whitelist:

@@ -1,5 +1,13 @@
 ---
 layout: archive
+permalink: /
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 ---
 
 {{ content }}
@@ -18,5 +26,32 @@ layout: archive
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
+<nav class="pagination"></nav>
+  <div class="pagination__wrapper">
+    <h2 class="is-blind">포스트 페이지 매김</h2>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination__anchor pagination__anchor--prev">이전 페이지</a>
+    {% else %}
+      <span role="link" aria-disabled="true" class="pagination__anchor pagination__anchor--prev is-disabled">이전 페이지</span>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination__anchor pagination__anchor--next">다음 페이지</a>
+    {% else %}
+      <span role="link" aria-disabled="true" class="pagination__anchor pagination__anchor--next is-disabled">다음 페이지</span>
+    {% endif %}
+    <ul class="pagination__list">
+      {% if paginator.page_trail %}
+        {% for trail in paginator.page_trail %}
+          <li class="pagination__listitem">
+            {% if page.url == trail.path %}
+              <em role="link" aria-disabled="true" aria-label="현재 페이지, {{ trail.num }}번 페이지" aria-current="page" class="pagination__anchor is-active">{{ trail.num }}</em>
+            {% else %}
+              <a href="{{ trail.path | prepend: site.baseurl | replace: 'index.html', '' }}" aria-label="{{ trail.num }}번 페이지" class="pagination__anchor">{{ trail.num }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+</nav>
 
-{% include paginator.html %}
