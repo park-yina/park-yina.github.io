@@ -48,6 +48,11 @@ jobs:
           export PATH="/opt/hostedtoolcache/Ruby/3.2.2/x64/bin:$PATH"
           ruby -v
           
+      - name: Set GEM_HOME for local gem installation
+        run: |
+          export GEM_HOME="$HOME/.gem"
+          export PATH="$GEM_HOME/bin:$PATH"
+          
       - name: Install Bundler and Jekyll
         run: |
           gem install bundler
@@ -76,3 +81,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
