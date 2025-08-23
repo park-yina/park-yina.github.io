@@ -1,7 +1,7 @@
 {% assign current_category = 'project' %}
 {% if paginator.total_pages > 1 %}
 <nav class="pagination" style="margin-left: 2em;">
-  {% assign first_page_path = "/categories/{{ current_category }}/" | relative_url %}
+{% assign first_page_path = "/categories/" | append: current_category | append: "/" | relative_url %}
   <ul>
     {% comment %} Link for previous page {% endcomment %}
     {% if paginator.previous_page %}
