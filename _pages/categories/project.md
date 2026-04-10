@@ -23,7 +23,7 @@ pagination:
     {% endif %}
     <div class="card-content" style="padding: 15px;">
       <h2 style="font-size: 18px; margin: 0;">
-        <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color: #333;">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ss post.url }}" style="text-decoration: none; color: #333;">{{ post.title }}</a>
       </h2>
       <p class="card-summary" style="margin: 10px 0;">{{ post.summary }}</p>
     </div>
